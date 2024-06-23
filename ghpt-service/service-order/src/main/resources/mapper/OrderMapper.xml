@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mac.ghpt.order.mapper.OrderMapper">
+
+    <select id="countOrderData" resultType="com.mac.ghpt.model.vo.order.OrderCountVo">
+        WITH RECURSIVE dates AS (
+            SELECT CURRENT_DATE() AS date
+            UNION ALL
+            SELECT date - INTERVAL 1 DAY
+        FROM dates
+        WHERE date > CURRENT_DATE() - INTERVAL 6 DAY
+            )
+        SELECT dates.date, COALESCE(COUNT(order_info.create_time), 0) AS count
+        FROM dates
+            LEFT JOIN order_info ON DATE(dates.date) = DATE(order_info.create_time)
+        GROUP BY DATE(dates.date)
+        ORDER BY DATE(dates.date);
+    </select>
+</mapper>
