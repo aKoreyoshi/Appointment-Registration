@@ -9,19 +9,6 @@
 
 **Vue3 Element Admin** 是一个免费开源的中后台模版。基于`vue3`+`ElementPlus`+`Vite`开发，是一个开箱即用的中后台系统前端解决方案，它可以帮助你快速搭建企业级中后台产品原型，也可用于学习参考。
 
-- [在线预览](https://huzhushan.gitee.io/vue3-element-admin-site/)
-- [使用文档](https://huzhushan.gitee.io/vue3-element-admin)
-
-## 项目地址
-
-- [github 项目地址](https://github.com/huzhushan/vue3-element-admin)
-- [gitee 项目地址](https://gitee.com/huzhushan/vue3-element-admin)
-
-## 视频教程
-
-- [使用 vue3-element-admin 开发后台管理系统](https://www.bilibili.com/video/BV12v411V7ho/)
-- [vue3-element-admin 架构搭建过程](https://study.163.com/course/courseMain.htm?courseId=1211577825&share=2&shareId=400000000685053) 
-
 ## 技术储备
 
 > 提前了解和学习以下知识会对您使用本项目有很大的帮助
@@ -37,12 +24,6 @@
 ## 安装使用
 
 ```bash
-# 克隆项目
-git clone https://github.com/huzhushan/vue3-element-admin.git
-
-# 进入项目目录
-cd vue3-element-admin
-
 # 安装依赖
 npm install
 
@@ -59,13 +40,9 @@ npm start
 npm run build
 ```
 
-## 更新日志
-
-[CHANGELOG](https://github.com/huzhushan/vue3-element-admin/releases)
-
 ## 如何贡献
 
-非常欢迎你的加入！[提一个 Issue](https://github.com/huzhushan/vue3-element-admin/issues/new/choose) 或者提交一个 Pull Request。
+非常欢迎你的加入！[提一个 Issue](https://github.com/aKoreyoshi/Appointment-Registration.git) 或者提交一个 Pull Request。
 
 **Pull Request:**
 
@@ -103,18 +80,7 @@ npm run build
 
 ## 维护者
 
-[@huzhushan](https://github.com/huzhushan)
-
-## 捐赠
-
-如果你觉得这个项目对你有帮助，你可以帮作者买一杯果汁表示支持:tropical_drink:
-![donate](https://huzhushan.gitee.io/vue3-element-admin/donate.png)
-
-## 交流
-
-`Vue3-Element-Admin` 是完全开源免费的项目，在帮助开发者更方便地进行中大型管理系统开发，同时也提供 QQ 交流群使用问题欢迎在群内提问。
-
-- QQ 群 `734037120`
+[@huzhushan](https://github.com/aKoreyoshi/)
 
 ## License
 
