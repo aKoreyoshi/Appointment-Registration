@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="common-util" />
+        <module name="common-service" />
+        <module name="service-order-client" />
+        <module name="service-user-client" />
+        <module name="ghpt-gateway" />
+        <module name="service-hosp-client" />
+        <module name="service-oss" />
+        <module name="service-hosp" />
+        <module name="service-order" />
+        <module name="ghpt-model" />
+        <module name="service-user" />
+        <module name="service-manage-client" />
+        <module name="rabbit-util" />
+        <module name="ghpt-manage" />
+        <module name="service-doctor" />
+        <module name="service-sms" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="17" />
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="common-service" options="-parameters" />
+      <module name="common-util" options="-parameters" />
+      <module name="ghpt-common" options="" />
+      <module name="ghpt-feign" options="" />
+      <module name="ghpt-gateway" options="-parameters" />
+      <module name="ghpt-manage" options="-parameters" />
+      <module name="ghpt-model" options="-parameters" />
+      <module name="ghpt-service" options="" />
+      <module name="parent-ghpt" options="" />
+      <module name="rabbit-util" options="-parameters" />
+      <module name="service-doctor" options="-parameters" />
+      <module name="service-hosp" options="-parameters" />
+      <module name="service-hosp-client" options="-parameters" />
+      <module name="service-manage-client" options="-parameters" />
+      <module name="service-order" options="-parameters" />
+      <module name="service-order-client" options="-parameters" />
+      <module name="service-oss" options="-parameters" />
+      <module name="service-sms" options="-parameters" />
+      <module name="service-user" options="-parameters" />
+      <module name="service-user-client" options="-parameters" />
+    </option>
+  </component>
+</project>
