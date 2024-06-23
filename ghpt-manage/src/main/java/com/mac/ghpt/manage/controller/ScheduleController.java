@@ -40,9 +40,7 @@ public class ScheduleController {
             // 获取文件名
             String fileName = filePart.getSubmittedFileName();
             //设置保存路径
-//            String path = "D:\\gdesign\\example" + "\\" + fileName;
-            // TODO ④这是服务器环境目录，若需要在本地运行，则需要把路径换为上边的
-            String path = "/home/workspace/springboot/data" + "/" + fileName;
+            String path = "D:\\gdesign\\example" + "\\" + fileName;
             // 判断文件是否存在
             boolean fileExists = FileProcessingUtil.isFileExists(path);
             if (fileExists) {

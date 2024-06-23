@@ -37,9 +37,7 @@ public class HospitalController {
             // 获取文件名
             String fileName = filePart.getSubmittedFileName();
             // 保存文件到指定目录
-//            String path = "D:\\gdesign\\example" + "\\" + fileName;
-            // TODO ①这是服务器环境目录，若需要在本地运行，则需要把路径换为上边的
-            String path = "/home/workspace/springboot/data" + "/" + fileName;
+            String path = "D:\\gdesign\\example" + "\\" + fileName;
             // 判断文件是否存在
             boolean fileExists = FileProcessingUtil.isFileExists(path);
             if (fileExists) {

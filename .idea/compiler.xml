@@ -38,17 +38,17 @@
       <module name="ghpt-model" options="-parameters" />
       <module name="ghpt-service" options="" />
       <module name="parent-ghpt" options="" />
-      <module name="rabbit-util" options="-parameters" />
+      <module name="rabbit-util" options="" />
       <module name="service-doctor" options="-parameters" />
-      <module name="service-hosp" options="-parameters" />
-      <module name="service-hosp-client" options="-parameters" />
-      <module name="service-manage-client" options="-parameters" />
-      <module name="service-order" options="-parameters" />
-      <module name="service-order-client" options="-parameters" />
-      <module name="service-oss" options="-parameters" />
-      <module name="service-sms" options="-parameters" />
-      <module name="service-user" options="-parameters" />
-      <module name="service-user-client" options="-parameters" />
+      <module name="service-hosp" options="" />
+      <module name="service-hosp-client" options="" />
+      <module name="service-manage-client" options="" />
+      <module name="service-order" options="" />
+      <module name="service-order-client" options="" />
+      <module name="service-oss" options="" />
+      <module name="service-sms" options="" />
+      <module name="service-user" options="" />
+      <module name="service-user-client" options="" />
     </option>
   </component>
 </project>
