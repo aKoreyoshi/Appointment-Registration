@@ -80,7 +80,7 @@ npm run build
 
 ## 维护者
 
-[@huzhushan](https://github.com/aKoreyoshi/)
+[@aKoreyoshi](https://github.com/aKoreyoshi/)
 
 ## License
 
