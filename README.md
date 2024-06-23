@@ -77,23 +77,6 @@
 
 [Create a repo from this template on GitHub](https://github.com/ElanYoung/vite-vue-js-starter-template/generate).
 
-### Clone to local
-
-If you prefer to do it manually with the cleaner git history
-
-```bash
-# [optional] if you are using Windows, you need to close the end-of-line conversion
-git config --global core.autocrlf input
-
-# clone repository
-git clone https://github.com/ElanYoung/vite-vue-js-starter-template
-
-# open folder vite-vue-js-starter-template
-cd vite-vue-js-starter-template
-
-# install packages
-npm i
-```
 
 ## Checklist
 
